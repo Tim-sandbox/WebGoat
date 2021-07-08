@@ -48,4 +48,4 @@ jobs:
         java -jar wss-unified-agent.jar -d ./ -analyzeMultiModule multimodule.txt
         echo 'multimodule.txt contents'
         cat multimodule.txt
-        java -jar xModuleAnalyzer.jar -xModulePath multimodule.txt -fsaJarPath ./wss-unified-agent.jar -c ./eua.config -aggregateModules true
+        java -jar xModuleAnalyzer.jar -xModulePath multimodule.txt -runInParallel false -EuaMaxTotalMemAlloc 4 -fsaJarPath ./wss-unified-agent.jar -c ./eua.config -aggregateModules true
