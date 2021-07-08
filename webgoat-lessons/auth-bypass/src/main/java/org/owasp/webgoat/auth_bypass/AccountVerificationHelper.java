@@ -24,7 +24,7 @@ package org.owasp.webgoat.auth_bypass;
 
 import java.util.HashMap;
 import java.util.Map;
-// sample change
+// sample
 
 /**
  * Created by appsec on 7/18/17.
