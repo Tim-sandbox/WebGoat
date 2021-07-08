@@ -11,7 +11,7 @@ import io.restassured.http.ContentType;
 import lombok.Data;
 
 public class AccessControlTest extends IntegrationTest {
-	
+//test
 	@Test
     public void testLesson() {
     	startLesson("MissingFunctionAC");      
